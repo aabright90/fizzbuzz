@@ -1,0 +1,124 @@
+body {
+    font-family: Arial;
+    color: #707070;
+}
+
+.app-container {
+    height: 100vh;
+}
+
+.app-container, 
+.home-container, 
+.timer-container, 
+.timer-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-header, .timer-box-header {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.inputs {
+    margin-bottom: 80px;
+}
+
+.inputs label {
+    font-size: 18px;
+}
+
+.input-home {
+    width: 100px;
+    padding: 8px 16px;
+    border: 1px solid #707070;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+#goto-timer-button, #set-times-button {
+    border: 2px solid #707070;
+    color: #707070;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#set-times-button > i {
+    padding-right: 8px;
+}
+
+.timer-page-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#set-times-button {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.timer-box-header {
+    margin-bottom: 50px;
+}
+
+.timer-box > input {
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    width: 640px;
+    background-color: #F5F5F5;
+    padding: 28px;
+}
+
+.timer-buttons {
+    margin-top: 65px;
+}
+
+#timer-btn-start, #timer-btn-stop {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#timer-btn-start {
+    background-color: #5CCC87;
+    margin-right: 30px; 
+}
+
+#timer-btn-stop {
+    background-color: #E66666;
+}
+
+.fizz-text {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.text-container {
+    height: 80px;
+}
